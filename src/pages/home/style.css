@@ -16,16 +16,6 @@ section {
     color: var(--primary-color);
 }
 
-.btn-portfolio {
-    background: var(--primary-color);
-    border-radius: 0;
-}
-
-.btn-portfolio a {
-    color: #000;
-    text-decoration: none;
-}
-
 .btn-about a {
     color: var(--text-color);
     text-decoration: none;
@@ -45,6 +35,12 @@ section {
     }
 }
 
+.nome-tiago {
+    color: #5cccc9;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+
 .intro_sec .text,
 .intro_sec .h_bg-image {
     width: 50%;
@@ -53,12 +49,12 @@ section {
 @media (max-width:991.98px) {
     .intro_sec .text,
     .intro_sec .h_bg-image {
-        width: 100%;
+        width: 150%;
     }
 }
 
 .intro_sec .intro {
-    max-width: 450px;
+    max-width: 470px;
     margin: 0 auto;
 }
 

@@ -5,9 +5,10 @@ const meta = {
 };
 
 const introdata = {
-    title: "Olá, me chamo Tiago Nunes!",
+    title: "Olá, me chamo",
+    title2: "TIAGO NUNES!",
     animated: {
-        first: "E sou um desenvolver Full Stack",
+        first: "Full Stack Developer",
         second: "Sou um desenvolver Full Stack",
         third: "I develop mobile apps",
     },
