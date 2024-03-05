@@ -7,7 +7,6 @@ section {
     transition: all .5s ease-in;
 }
 
-
 .who_am_I {
     font-family: Cinzel;
 }
@@ -23,7 +22,7 @@ section {
 
 .intro_sec {
     height: calc(100vh - 60px);
-    min-height: 700px;
+    min-height: 00px;
     height: 100vh;
     margin-top: -60px;
 }
@@ -36,14 +35,18 @@ section {
 }
 
 .nome-tiago {
-    color: #5cccc9;
+    background-image: linear-gradient(to right, #00f7ff, #00b7ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
     font-weight: bold;
     font-family: "Roboto", sans-serif;
 }
 
-.intro_sec .text,
-.intro_sec .h_bg-image {
-    width: 50%;
+
+.intro_sec .text {
+    width: 60%;
+    transform: scale(1.5);
 }
 
 @media (max-width:991.98px) {
@@ -228,4 +231,10 @@ section {
 
 .intro_sec .h_bg-image {
     filter: saturate(0.5);
+}
+
+.intro.mx-auto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
